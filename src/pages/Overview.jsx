@@ -20,7 +20,7 @@ const Overview = () => {
 
   // prettier-ignore
   const getCryptoData = async () => {
-    let apiURL = baseApiURL + `&start=${pageNumber}` + `&limit=${resultsPerPage}` + '&convert=USD'
+    let apiURL = baseApiURL + `&start=${currentPageNumber}` + `&limit=${resultsPerPage}` + '&convert=USD'
     const resp = await axios.get(apiURL)
     console.log(resp.data.data)
     // console.log)

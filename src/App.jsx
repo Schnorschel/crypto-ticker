@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <header>
         <h1>Crypto-Ticker</h1>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Go Home</Link>
@@ -22,7 +22,7 @@ const App = () => {
               <Link to="/2">Page 2</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </header>
       <Switch>
         <Route exact path="/" component={Overview}></Route>
